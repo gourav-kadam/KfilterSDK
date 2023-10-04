@@ -4,11 +4,11 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.dcendents.android-maven'
 
 android {
-    compileSdkVersion android_version_target
-    buildToolsVersion "26.0.2"
+    compileSdk android_version_target
+    //buildToolsVersion "26.0.2"
     defaultConfig {
         minSdkVersion android_version_min
-        targetSdkVersion android_version_target
+        targetSdk android_version_target
         versionCode library_version_code
         versionName library_version_name
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
